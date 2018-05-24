@@ -43,7 +43,7 @@
 			div.tooltip {
 				position: absolute;
 				text-align: center;
-				width: 180px;
+				width: 225px;
 				height: 44px;
 				padding: 2px;
 				font: 12px sans-serif;
@@ -187,7 +187,7 @@
 					   .attr("d", path)
 					   .style("fill", function(d) {
 					   		//Get data value
-					   		var value = d.properties.value;
+					   		var value = d.properties.value
 					   		
 					   		if (value) {
 					   			//If value exists…
@@ -203,7 +203,7 @@
 					       div.transition()
 					         .duration(200)
 					         .style("opacity", .9);
-					       div.html("District: " + d.properties.name + "<br/>" + "Population: " + (d.properties.value * 1000000) + " People<br/>" + "Pop. Density: " + d.properties.popden + " Ppl/km^2")
+					       div.html("District: " + d.properties.name + "<br/>" + "Population: " + (d.properties.value * 1000000) + " People<br/>" + "Pop. Density: " + d.properties.popden + " Thousand Ppl/km^2")
 					         .style("left", (d3.event.pageX) + "px")
 					         .style("top", (d3.event.pageY - 28) + "px");
 					       })
