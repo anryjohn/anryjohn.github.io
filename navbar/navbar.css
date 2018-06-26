@@ -1,0 +1,32 @@
+.navbar-custom {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: rgba(192,192,192, .2); 
+  
+  z-index: 1;
+  -webkit-transition: background .5s;
+  transition: background .5s;
+
+}
+
+.navbar-custom:hover {
+    background-color: #b9bbce; 
+    opacity: 1;
+} 
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  font-family: 'Saira Extra Condensed', serif;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  color: #343a40;
+  padding: 40px 0 40px;
+
+  -webkit-transition: color .3s;  
+  transition: color .3s;
+}
+
+.navbar-custom .navbar-nav .nav-item:hover .nav-link {
+     color: rgba(255,255,255)!important;
+}
