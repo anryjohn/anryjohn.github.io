@@ -36,11 +36,11 @@ function getPortrait() {
 
   // Add grayscale tag to old-timey image caption
   let imgClass = "h-auto max-w-full rounded-lg"
-  if (caption == "c. 1915") imgClass += " grayscale";
+  if (caption === "c. 1915") imgClass += " grayscale";
 
   return (
     <figure className="max-w-xs">
-      <img className={imgClass} src={portrait} alt="image description" />
+      <img className={imgClass} src={portrait} alt="portrait" />
       <figcaption className="mt-2 text-sm text-center text-gray-500 dark:text-gray-400">{caption}</figcaption>
     </figure>
   );

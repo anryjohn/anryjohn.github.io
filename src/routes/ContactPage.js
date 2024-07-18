@@ -10,7 +10,7 @@ function ContactPage() {
       </p>
       <p className='t'>And while I'm at it, allow me to shamelessly plug my&nbsp;
         <a className='font-semibold text-purple-800 md:hover:text-purple-600' href="https://www.linkedin.com/in/andrew-johnson/">LinkedIn</a>
-        &nbsp;or my&nbsp;
+        &nbsp;and&nbsp;
         <a className='font-semibold text-purple-800 md:hover:text-purple-600' href="https://www.instagram.com/anryjohnson/">Instagram</a>
         &nbsp;too!</p>
     </div>
