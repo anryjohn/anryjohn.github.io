@@ -15,7 +15,7 @@ function HomePage() {
           with project management and the development lifecycle for web applications and back-end systems.
         </p>
         <p className='text-xl pt-6'>And while I have your attention, feel free to grab a copy of my&nbsp;
-          <a href={resume} download className='font-semibold text-purple-800 md:hover:text-purple-600'>resume</a>.
+          <a href={resume} download className='font-semibold page-link'>resume</a>.
         </p>
       </div>
     </div>

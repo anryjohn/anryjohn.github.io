@@ -7,7 +7,7 @@ function ExperiencePage() {
       <div className="flex min-w-[48rem] max-w-3xl mb-6">
         <div className="border-r-2 border-gray-300 mr-4"></div>
         <h1 className="text-3xl font-black">
-          <a href={resume} download className='text-purple-800 md:hover:text-purple-600'>
+          <a href={resume} download className='page-link'>
             Download Resume
           </a>
         </h1>
