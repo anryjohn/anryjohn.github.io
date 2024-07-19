@@ -7,17 +7,17 @@ function Footer() {
         <div className="flex flex-wrap items-center justify-between">
           <ul className="flex space-x-6 rtl:space-x-reverse">
             <li>
-              <a href="https://github.com/anryjohn" className="text-gray-900 dark:text-white hover:underline">
+              <a href="https://github.com/anryjohn" className="text-gray-900 dark:text-white hover:underline" target="_blank">
                 github
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/andrew-johnson/" className="text-gray-900 dark:text-white hover:underline">
+              <a href="https://www.linkedin.com/in/andrew-johnson/" className="text-gray-900 dark:text-white hover:underline" target="_blank">
                 linkedin
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/anryjohnson/" className="text-gray-900 dark:text-white hover:underline">
+              <a href="https://www.instagram.com/anryjohnson/" className="text-gray-900 dark:text-white hover:underline" target="_blank">
                 instagram
               </a>
             </li>

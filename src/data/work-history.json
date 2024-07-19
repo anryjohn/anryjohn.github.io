@@ -1,0 +1,25 @@
+{
+  "template" : {
+    "company" : "",
+    "location" : "",
+    "descriptions" : []
+  },
+  "datacare" : {
+    "company" : "Datacare",
+    "location" : "San Jose, CA",
+    "descriptions" : [
+      "Engineered several client-facing, configurable modules and services that expedited key user workflows, resulting in 25% faster turnaround in document processing.",
+      "Leveraged advanced SQL proficiency to craft dynamic queries for comprehensive data management and presentation, empowering both internal teams and clients with actionable insights.",
+      "Accelerated bug resolution, ensuring seamless operation of the platform, and exceeded client onboarding needs by delivering tailor-made features and configurations."
+    ]
+  },
+  "luther" : {
+    "company" : "Luther Systems",
+    "location" : "Los Gatos, CA",
+    "descriptions" : [
+      "Identified and filled in platform architectural and feature gaps while engaging in a highly dynamic and collaborative work environment.",
+      "Developed and deployed robust RESTful APIs to support mobile and web applications, ensuring high performance and scalability.",
+      "Led and facilitated team meetings, outlining story requirements and driving project progress through implementation roundtable sessions and feature workflow whiteboarding."
+    ]
+  }
+}
