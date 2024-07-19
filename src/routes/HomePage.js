@@ -5,9 +5,9 @@ import resume from '../assets/andrew_johnson_resume.pdf';
 
 function HomePage() {
   return (
-    <div className="page-body-alt">
+    <div className="page-body flex-row">
       {getPortrait()}
-      <div className="max-w-screen-sm">
+      <div className="max-w-screen-sm text-left ml-4  ">
         <h1 className='text-5xl font-black'>Hi! I'm Andrew Johnson</h1>
         <p className='text-xl pt-6'>
           I'm a Software Engineer with 5 years professional experience translating business requirements

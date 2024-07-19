@@ -2,7 +2,7 @@ import React from 'react';
 
 function ContactPage() {
   return (
-    <div className='page-body'>
+    <div className='page-body flex-col'>
       <h1 className='text-5xl font-black pb-4'>Contact Me!</h1>
       <p className='text-xl'>For any and all business-related inqueries (or if you just really want to chat),
         you can email me at&nbsp;
