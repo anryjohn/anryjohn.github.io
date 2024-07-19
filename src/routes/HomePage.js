@@ -7,7 +7,7 @@ function HomePage() {
   return (
     <div className="page-body flex-row">
       {getPortrait()}
-      <div className="max-w-screen-sm text-left ml-4  ">
+      <div className="max-w-screen-sm text-left ml-4">
         <h1 className='text-5xl font-black'>Hi! I'm Andrew Johnson</h1>
         <p className='text-xl pt-6'>
           I'm a Software Engineer with 5 years professional experience translating business requirements
@@ -16,6 +16,14 @@ function HomePage() {
         </p>
         <p className='text-xl pt-6'>And while I have your attention, feel free to grab a copy of my&nbsp;
           <a href={resume} download className='font-semibold page-link'>resume</a>.
+          Or maybe check out my&nbsp;
+          <a href='https://www.linkedin.com/in/andrew-johnson/' download className='font-semibold page-link' target="_blank">
+            LinkedIn
+          </a>?
+          Or possibly even perhaps my&nbsp;
+          <a href='https://www.instagram.com/anryjohnson/' download className='font-semibold page-link' target="_blank">
+            Instagram
+          </a>?
         </p>
       </div>
     </div>
@@ -35,7 +43,7 @@ function getPortrait() {
   const caption = captions[randomIndex];
 
   // Add grayscale tag to old-timey image caption
-  let imgClass = "h-auto max-w-full rounded-lg"
+  let imgClass = "h-auto max-w-full rounded-lg shadow-xl"
   if (caption === "c. 1915") imgClass += " grayscale";
 
   return (

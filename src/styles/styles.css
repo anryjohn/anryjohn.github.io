@@ -11,5 +11,9 @@
 }
 
 .experience-border {
-    @apply border-x-2 border-gray-300 mr-4
+    @apply border-x-2 border-gray-300 mr-4 rounded-lg
+}
+
+.email-form {
+    @apply w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600
 }

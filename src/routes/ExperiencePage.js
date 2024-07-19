@@ -7,7 +7,7 @@ function ExperiencePage() {
     <div className="page-body flex justify-center">
       <div className='max-w-3xl'>
         <div className="flex mb-6">
-          <div className="experience-border"></div>
+          <div className="experience-border" />
           <h1 className="text-3xl font-black">
             <a href={resume} download className='page-link'>
               Download Resume
@@ -15,7 +15,7 @@ function ExperiencePage() {
           </h1>
         </div>
         <div className="flex mb-6">
-          <div className="experience-border"></div>
+          <div className="experience-border" />
           <ul className="text-left">
             <li className='mb-2'>
               <h1 className="text-3xl font-black">Work Experience</h1>
@@ -29,7 +29,7 @@ function ExperiencePage() {
           </ul>
         </div>
         <div className="flex">
-          <div className="experience-border"></div>
+          <div className="experience-border" />
           <ul className="text-left">
             <li className='mb-2'>
               <h1 className="text-3xl font-black">Education</h1>
