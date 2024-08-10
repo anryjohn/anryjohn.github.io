@@ -10,7 +10,7 @@ function Navigation() {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 bg-white border-gray-200 dark:bg-white z-50">
+    <nav className="fixed top-0 left-0 right-0 bg-white bg-opacity-90 z-50">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src={logo} className="h-14" alt="logo" />
@@ -34,6 +34,9 @@ function Navigation() {
             </li>
             <li>
               {buildNavLink("/experience", "experience")}
+            </li>
+            <li>
+              {buildNavLink("/projects", "projects")}
             </li>
             <li>
               {buildNavLink("/contact", "contact")}

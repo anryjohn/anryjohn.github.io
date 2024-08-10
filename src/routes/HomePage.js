@@ -31,16 +31,16 @@ function HomePage() {
 }
 
 function getPortrait() {
-  const captions = ["",
-                    "hey, that's me!",
+  const captions = ["hey, that's me!",
                     "it's just a placeholder, ok?",
                     "talk about bedhead...",
                     "c. 1915",
                     "what're you lookin' at?",
                     "i could use a shave",
                     "wow so handsome"];
-  const randomIndex = Math.floor(Math.random() * captions.length);
-  const caption = captions[randomIndex];
+  const randomIndex = Math.floor(Math.random() * 2 * captions.length);
+  // Create a greater chance for no caption
+  const caption = randomIndex < captions.length ? captions[randomIndex] : "";
 
   // Add grayscale tag to old-timey image caption
   let imgClass = "h-auto max-w-full rounded-lg shadow-xl"
