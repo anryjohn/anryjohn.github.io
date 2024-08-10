@@ -5,6 +5,7 @@ import Footer from './components/footer';
 import HomePage from './routes/HomePage';
 import ContactPage from './routes/ContactPage';
 import ExperiencePage from './routes/ExperiencePage';
+import ProjectsPage from './routes/ProjectsPage';
 import './styles/styles.css';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <Route exact path="/" element={<HomePage />} />
             <Route exact path="/experience" element={<ExperiencePage />} />
             <Route exact path="/contact" element={<ContactPage />} />
+            <Route exact path="/projects" element={<ProjectsPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </div>

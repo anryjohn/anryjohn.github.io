@@ -3,11 +3,13 @@ import resume from '../assets/andrew_johnson_resume.pdf';
 import workHistory from '../data/work-history.json'
 
 function ExperiencePage() {
+  const companies = ['luther', 'datacare'];
+
   return (
     <div className="page-body flex justify-center">
       <div className='max-w-3xl'>
         <div className="flex mb-6">
-          <div className="experience-border" />
+          <div className="vertical-border" />
           <h1 className="text-3xl font-black">
             <a href={resume} download className='page-link'>
               Download Resume
@@ -15,21 +17,20 @@ function ExperiencePage() {
           </h1>
         </div>
         <div className="flex mb-6">
-          <div className="experience-border" />
+          <div className="vertical-border" />
           <ul className="text-left">
             <li className='mb-2'>
               <h1 className="text-3xl font-black">Work Experience</h1>
             </li>
-            <li className='mb-2'>
-              {workExperienceEntry(workHistory["luther"])}
-            </li>
-            <li className='mb-2'>
-              {workExperienceEntry(workHistory["datacare"])}
-            </li>
+            {companies.map(company => (
+              <li className='mb-2'>
+                {workExperienceEntry(workHistory[company])}
+              </li>
+            ))}
           </ul>
         </div>
         <div className="flex">
-          <div className="experience-border" />
+          <div className="vertical-border" />
           <ul className="text-left">
             <li className='mb-2'>
               <h1 className="text-3xl font-black">Education</h1>

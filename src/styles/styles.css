@@ -3,14 +3,14 @@
 }
 
 .page-body {
-    @apply flex items-center justify-center min-h-screen text-center py-20
+    @apply flex items-center justify-center min-h-screen text-center py-20 mx-1
 }
 
 .page-link {
     @apply text-purple-800 md:hover:text-purple-600
 }
 
-.experience-border {
+.vertical-border {
     @apply border-x-2 border-gray-300 mr-4 rounded-lg
 }
 
