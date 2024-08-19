@@ -38,7 +38,6 @@ function EmailHandler() {
   return (
     <form onSubmit={handleSubmit} className="mt-8">
         <div className="mb-4">
-        <label className="block text-lg font-semibold" htmlFor="name">Your Name:</label>
         <input
             type="text"
             id="from_name"
@@ -47,10 +46,10 @@ function EmailHandler() {
             onChange={handleChange}
             required
             className="email-form"
+            placeholder="Name"
         />
         </div>
         <div className="mb-4">
-        <label className="block text-lg font-semibold" htmlFor="email">Your Email:</label>
         <input
             type="email"
             id="reply_to"
@@ -59,10 +58,10 @@ function EmailHandler() {
             onChange={handleChange}
             required
             className="email-form"
+            placeholder="Email"
         />
         </div>
         <div className="mb-4">
-        <label className="block text-lg font-semibold" htmlFor="message">Message:</label>
         <textarea
             id="message"
             name="message"
@@ -71,6 +70,7 @@ function EmailHandler() {
             required
             className="email-form"
             rows="5"
+            placeholder="Message"
         />
         </div>
         <button
