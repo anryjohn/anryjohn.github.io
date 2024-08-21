@@ -70,7 +70,7 @@ function EmailHandler() {
             required
             className="email-form"
             rows="5"
-            placeholder="Message"
+            placeholder=" Message"
         />
         </div>
         <button
